@@ -1,17 +1,19 @@
-#include <stdio.h>
-
-int main() 
+#include "main.h"
+/**
+ * main - Entry point
+ * Description: 'prints _putchar to stdout'
+ * Return: always 0
+ * */
+int main(void)
 {
-    char word[] = "_putchar";
-    int i = 0;
-
-    while (word[i] != '\0') 
-{
-        putchar(word[i]);
-        i++;
-    }
-
-    putchar('\n');
-
-    return 0;
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
+	return 0;
 }
